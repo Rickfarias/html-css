@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Desafio 009 - Vídeos</title>
+    <Style> h1{font-size: 30pt; color:aliceblue ; text-align: center;}
+    body{ background-color: rgba(0, 0, 0, 0.819);
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 1.5rem; 
+    }
+    .container {
+        width: 60%;
+        margin: 2rem auto; 
+    }
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block; 
+    }
+    .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+  .gallery__item--2 {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery__item--3 {
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+    </Style>
+</head>
+<body>
+    <H1>Vários cursos interessantes</H1>
+
+    <div class="container">
+        <div class="box">
+
+            <figure class="gallery__item gallery__item--1"><a href="pag001.html" target="_self" rel="next"><img width="400" src="imagens/thumb-html.png" alt="thumb-html"></a></figure>
+
+            <figure class="gallery__item gallery__item--2"><a href="pag002.html" target="_self" rel="next"><img width="400" src="imagens/thumb-hardware.png" alt="thumb-hardware"></a></figure>
+
+            <figure class="gallery__item gallery__item--3"><a href="pag003.html" target="_self" rel="next"><img width="400" src="imagens/thumb-js.png" alt="thumb-js"></a></figure>
+        
+            <figure class="gallery__item gallery__item--4"><a href="pag004.html" target="_self" rel="next"><img width="400" src="imagens/thumb-python.png" alt="thumb-python"></a></figure>
+        </div>
+    </div>
+
+</body>
+</html>

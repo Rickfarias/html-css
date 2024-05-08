@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>exemplos de imagens flexíveis</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midias/happy-mistake.mp3" type ="audio/mpeg">
+        <p>Seu navegador não suporta áudio. <a href="midias/happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mpeg">Clique aqui</a> para fazer o download.</p>
+    </audio>
+</body>
+</html>
