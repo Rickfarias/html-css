@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* 
+Paleta de cores:
+(mais claro ao mais escuro) 
+#F2F2F2
+#737373
+#404040
+#262626
+#0D0D0D
+*/
+
+:root {
+    --cor0: #F2F2F2;
+    --cor1: #737373;
+    --cor2: #404040;
+    --cor3: #262626;
+    --cor4: #0D0D0D;
+}
